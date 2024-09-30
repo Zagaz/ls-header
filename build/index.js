@@ -164,7 +164,21 @@ function save() {
                   })]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
                   className: "navbar-collapse",
-                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.InnerBlocks.Content, {})
+                  children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("ul", {
+                    class: "wp-block-navigation__container is-responsive wp-block-navigation",
+                    children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
+                      class: " wp-block-navigation-item current-menu-item wp-block-navigation-link",
+                      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
+                        class: "wp-block-navigation-item__content",
+                        href: "http://localhost:8888/",
+                        "aria-current": "page",
+                        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
+                          class: "wp-block-navigation-item__label",
+                          children: "Sample Pagefcsfdsdf"
+                        })
+                      })
+                    })
+                  })
                 })]
               })
             })
