@@ -128,9 +128,11 @@ function save() {
   // The InnerBlocks.Content must be added to the save function
 
   return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("div", {
       ...blockProps,
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
+      children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
+        children: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa consequatur consectetur magni, magnam facilis architecto rem odio! Sint aliquam expedita dolor tenetur eligendi quos nobis in? Quia maiores ut similique. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia fugiat vitae vero sequi repellat repudiandae totam ea omnis atque earum quaerat expedita error, voluptatibus nesciunt iste possimus ipsum animi alias."
+      }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
         className: "ud-header",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
           className: "container",
@@ -168,7 +170,7 @@ function save() {
             })
           })
         })
-      })
+      })]
     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_0__.InnerBlocks.Content, {})]
   });
 }
