@@ -11,15 +11,16 @@ import { InnerBlocks } from "@wordpress/block-editor";
 import "./editor.scss";
 
 export default function Edit() {
-	const ALLOWED_BLOCKS = ["core/navigation", "core/site-logo"];
-	const SITENAV = [["core/navigation"]];
+	const ALLOWED_BLOCKS = ["core/navigation"];
+	const MENU = [["core/navigation"]];
 	return (
 		<>
-		
+
 			<div {...useBlockProps()}>
+				<p>sd</p>
 				<InnerBlocks
 					allowedBlocks={ALLOWED_BLOCKS}
-					template={SITENAV}
+					template={MENU}
 					templateLock="all"
 				/>
 			</div>

@@ -4,6 +4,13 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
+ // font-family Inter
+ $font-family-sans-serif: 'Inter', sans-serif;
+ $font-weight: 400;
+ $font-size: 16px;
+ $primary-bg : #184C4E;
+ $primary-color : rgb(0, 0, 0);
+
 
 
 .wp-block-create-block-ls-header {
@@ -11,78 +18,58 @@
 
 	background-color: rgb(167, 223, 245);
 	.ud-header {
-		background-color: yellow;
+
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 99;
+		// @include transition(0.3s);
 
 		.container {
-		        max-width: 1140px;
+			max-width: 1140px;
 			background-color: red;
-		  .row {
-			background-color: green;
-			.col-lg-12 {
-				background-color: blue;
-			  .navbar {
-				background-color: pink;
+			.row {
+				background-color: green;
+				--bs-gutter-x: 1.5rem;
+				--bs-gutter-y: 0;
+				display: flex;
+				flex-wrap: wrap;
+				margin-left: calc(var(--bs-gutter-x) * -0.5);
+				margin-right: calc(var(--bs-gutter-x) * -0.5);
+				margin-top: calc(var(--bs-gutter-y) * -1);
+				.col-lg-12 {
+					background-color: blue;
+					.navbar {
+						background-color: pink;
 
-				&-brand {
-					//Logo
-					background-color: aqua;
-				  a {
-					background-color: orange;
-					img {
-					  // estilo para o logo
-					}
-				  }
-				}
-				&-toggler {
-					background-color: brown;
-					padding: 0;
-				  .toggler-icon {
-					// estilo para o ícone do toggler
-					background-color: blue	;
-		
-				  }
-				}
-				&-collapse {
-					background-color: purple;
-				  #nav {
-					background-color: gray;
-					color:white;
-					a:link {
-						color: white;
-					}
-
-					.navbar-nav {
-						background-color: cadetblue;
-					  .nav-item {
-						background-color: darkcyan;
-						a.ud-menu-scroll {
-							background-color: darkgoldenrod;
-						  // estilo para os links do menu
-						}
-						&-has-children {
-						  a {
-							// estilo para o link com submenu
-						  }
-						  .ud-submenu {
-							&.show {
-							  // estilo para submenu aberto
+						&-brand {
+							//Logo
+							background-color: aqua;
+							a {
+								background-color: orange;
+								img {
+									// estilo para o logo
+								}
 							}
-							.ud-submenu-item {
-							  a.ud-submenu-link {
-								// estilo para links do submenu
-							  }
-							}
-						  }
 						}
-					  }
+						&-toggler {
+							background-color: brown;
+							padding: 0;
+							.toggler-icon {
+								// estilo para o ícone do toggler
+								background-color: blue;
+							}
+						}
+						&-collapse {
+							background-color: purple;
+							#nav {
+								// Menu
+							}
+						}
 					}
-				  }
 				}
-			  }
 			}
-		  }
 		}
-	  }
-
-
+	}
 }
