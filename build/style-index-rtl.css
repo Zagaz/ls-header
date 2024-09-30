@@ -7,3 +7,6 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
+.wp-block-create-block-ls-header {
+  background-color: rgb(167, 223, 245);
+}

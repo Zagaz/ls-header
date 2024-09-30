@@ -1,8 +1,6 @@
-
-import { __ } from '@wordpress/i18n';
-import { useBlockProps } from '@wordpress/block-editor';
-import { InnerBlocks } from '@wordpress/block-editor';
-
+import { __ } from "@wordpress/i18n";
+import { useBlockProps } from "@wordpress/block-editor";
+import { InnerBlocks } from "@wordpress/block-editor";
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -10,27 +8,21 @@ import { InnerBlocks } from '@wordpress/block-editor';
  *
  * @see https://www.npmjs.com/package/@wordpress/scripts#using-css
  */
-import './editor.scss';
-
+import "./editor.scss";
 
 export default function Edit() {
-	const ALLOWED_BLOCKS = [ 'core/navigation' ];
+	const ALLOWED_BLOCKS = ["core/navigation", "core/site-logo"];
+	const SITENAV = [["core/navigation"]];
 	return (
 		<>
-			<div { ...useBlockProps() }>
-
+		
+			<div {...useBlockProps()}>
 				<InnerBlocks
-				allowedBlocks={ ALLOWED_BLOCKS }
-				template={ [
-					[ 'core/navigation' ]
-				] }
-				templateLock="all"
-
+					allowedBlocks={ALLOWED_BLOCKS}
+					template={SITENAV}
+					templateLock="all"
 				/>
-
-
-
-				</div>
+			</div>
 		</>
 	);
 }
