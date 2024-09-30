@@ -10,3 +10,51 @@
 .wp-block-create-block-ls-header {
   background-color: rgb(167, 223, 245);
 }
+.wp-block-create-block-ls-header .ud-header {
+  background-color: yellow;
+}
+.wp-block-create-block-ls-header .ud-header .container {
+  max-width: 1140px;
+  background-color: red;
+}
+.wp-block-create-block-ls-header .ud-header .container .row {
+  background-color: green;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 {
+  background-color: blue;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar {
+  background-color: pink;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand {
+  background-color: aqua;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand a {
+  background-color: orange;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-toggler {
+  background-color: brown;
+  padding: 0;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-toggler .toggler-icon {
+  background-color: blue;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-collapse {
+  background-color: purple;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-collapse #nav {
+  background-color: gray;
+  color: white;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-collapse #nav a:link {
+  color: white;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-collapse #nav .navbar-nav {
+  background-color: cadetblue;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-collapse #nav .navbar-nav .nav-item {
+  background-color: darkcyan;
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-collapse #nav .navbar-nav .nav-item a.ud-menu-scroll {
+  background-color: darkgoldenrod;
+}

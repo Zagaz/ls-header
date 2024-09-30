@@ -5,22 +5,84 @@
  * Replace them with your own styles or remove the file completely.
  */
 
+
 .wp-block-create-block-ls-header {
+	// clear styles
+
 	background-color: rgb(167, 223, 245);
-	.ud-header{
-		.container{
-			.row{
-				.col-lg-12{
-			
+	.ud-header {
+		background-color: yellow;
 
+		.container {
+		        max-width: 1140px;
+			background-color: red;
+		  .row {
+			background-color: green;
+			.col-lg-12 {
+				background-color: blue;
+			  .navbar {
+				background-color: pink;
+
+				&-brand {
+					//Logo
+					background-color: aqua;
+				  a {
+					background-color: orange;
+					img {
+					  // estilo para o logo
+					}
+				  }
 				}
+				&-toggler {
+					background-color: brown;
+					padding: 0;
+				  .toggler-icon {
+					// estilo para o ícone do toggler
+					background-color: blue	;
+		
+				  }
+				}
+				&-collapse {
+					background-color: purple;
+				  #nav {
+					background-color: gray;
+					color:white;
+					a:link {
+						color: white;
+					}
 
+					.navbar-nav {
+						background-color: cadetblue;
+					  .nav-item {
+						background-color: darkcyan;
+						a.ud-menu-scroll {
+							background-color: darkgoldenrod;
+						  // estilo para os links do menu
+						}
+						&-has-children {
+						  a {
+							// estilo para o link com submenu
+						  }
+						  .ud-submenu {
+							&.show {
+							  // estilo para submenu aberto
+							}
+							.ud-submenu-item {
+							  a.ud-submenu-link {
+								// estilo para links do submenu
+							  }
+							}
+						  }
+						}
+					  }
+					}
+				  }
+				}
+			  }
 			}
-
+		  }
 		}
+	  }
 
-	}
 
 }
-
-

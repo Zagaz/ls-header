@@ -126,121 +126,121 @@ function save() {
     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
       ...blockProps,
       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("header", {
-        class: "ud-header",
+        className: "ud-header",
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-          class: "container",
+          className: "container",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-            class: "row",
+            className: "row",
             children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-              class: "col-lg-12",
+              className: "col-lg-12",
               children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("nav", {
-                class: "navbar navbar-expand-lg",
+                className: "navbar navbar-expand-lg",
                 children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("a", {
-                  class: "navbar-brand",
+                  className: "navbar-brand",
                   href: "/",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
                     src: "/assets/images/logo/logo.svg",
                     alt: "Logo"
                   }), "ud-header     "]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
-                  class: "navbar-toggler",
+                  className: "navbar-toggler",
                   title: "Toggle navigation menu",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
-                    class: "toggler-icon",
+                    className: "toggler-icon",
                     children: " "
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
-                    class: "toggler-icon",
+                    className: "toggler-icon",
                     children: " "
                   }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
-                    class: "toggler-icon",
+                    className: "toggler-icon",
                     children: " "
                   })]
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("div", {
-                  class: "navbar-collapse",
+                  className: "navbar-collapse",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("ul", {
                     id: "nav",
-                    class: "navbar-nav mx-auto",
+                    className: "navbar-nav mx-auto",
                     children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                      class: "nav-item",
+                      className: "nav-item",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                        class: "ud-menu-scroll",
+                        className: "ud-menu-scroll",
                         href: "/#home",
                         children: "Cris"
                       })
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                      class: "nav-item",
+                      className: "nav-item",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                        class: "ud-menu-scroll",
+                        className: "ud-menu-scroll",
                         href: "/#features",
                         children: "Isaac"
                       })
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                      class: "nav-item",
+                      className: "nav-item",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                        class: "ud-menu-scroll",
+                        className: "ud-menu-scroll",
                         href: "/#about",
                         children: "About"
                       })
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                      class: "nav-item",
+                      className: "nav-item",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                        class: "ud-menu-scroll",
+                        className: "ud-menu-scroll",
                         href: "/pricing",
                         children: "Pricing"
                       })
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                      class: "nav-item",
+                      className: "nav-item",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                        class: "ud-menu-scroll",
+                        className: "ud-menu-scroll",
                         href: "/#target_audience",
                         children: "Target audience"
                       })
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                      class: "nav-item",
+                      className: "nav-item",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                        class: "ud-menu-scroll",
+                        className: "ud-menu-scroll",
                         href: "/#contact",
                         children: "Contact"
                       })
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                      class: "nav-item",
+                      className: "nav-item",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                        class: "ud-menu-scroll",
+                        className: "ud-menu-scroll",
                         href: "/posts",
                         children: "Posts"
                       })
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("li", {
-                      class: "nav-item nav-item-has-children",
+                      className: "nav-item nav-item-has-children",
                       children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                         href: "javascript:void(0)",
                         children: "Language"
                       }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("ul", {
-                        class: "ud-submenu show",
+                        className: "ud-submenu show",
                         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                          class: "ud-submenu-item",
+                          className: "ud-submenu-item",
                           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                            class: "ud-submenu-link",
+                            className: "ud-submenu-link",
                             href: "/",
                             children: "English"
                           })
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                          class: "ud-submenu-item",
+                          className: "ud-submenu-item",
                           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                            class: "ud-submenu-link",
+                            className: "ud-submenu-link",
                             href: "/fr",
                             children: "Fran\xE7ais"
                           })
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                          class: "ud-submenu-item",
+                          className: "ud-submenu-item",
                           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                            class: "ud-submenu-link",
+                            className: "ud-submenu-link",
                             href: "/nb-NO",
                             children: "Norsk bokm\xE5l"
                           })
                         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
-                          class: "ud-submenu-item",
+                          className: "ud-submenu-item",
                           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
-                            class: "ud-submenu-link",
+                            className: "ud-submenu-link",
                             href: "/pt-BR",
                             children: "Portugu\xEAs Brasil"
                           })
