@@ -8,7 +8,7 @@
  * Replace them with your own styles or remove the file completely.
  */
 .wp-block-create-block-ls-header .wp-block-navigation__responsive-container-content .wp-block-navigation {
-  background-color: #184C4E;
+  background-color: red;
 }
 .wp-block-create-block-ls-header .ud-header {
   position: absolute;
@@ -34,12 +34,6 @@
 }
 .wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand-toggler .toggler-icon {
   background-color: blue;
-}
-.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand-collapse .wp-block-navigation-item__content {
-  background-color: rgb(68, 128, 0);
-}
-.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand-collapse .wp-block-navigation-item__content .wp-block-navigation-item .wp-block-navigation-item__content .wp-block-navigation-item__label {
-  background-color: yellow;
 }
 
 /*# sourceMappingURL=style-index.css.map*/

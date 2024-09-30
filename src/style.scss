@@ -18,8 +18,7 @@
 	// clear styles
 	.wp-block-navigation__responsive-container-content{
 		.wp-block-navigation{
-
-			background-color: $primary-bg;
+			background-color: red;
 		}
 
 	}
@@ -68,46 +67,7 @@
 								}
 							}
 							&-collapse{
-								.wp-block-navigation{
-									.wp-block-navigation__responsive-container-open {
 
-									}
-									.wp-block-navigation__responsive-container{
-
-										.wp-block-navigation__responsive-close{
-											.wp-block-navigation__responsive-dialog{
-												.wp-block-navigation__responsive-container-close{
-
-												}
-
-											}
-
-										}
-										.wp-block-navigation__responsive-container-content{
-											.wp-block-navigation{
-
-											}
-
-										}
-
-									}
-
-								}
-
-								//Menu goes here
-								.wp-block-navigation-item__content{
-								background-color: rgb(68, 128, 0);
-								.wp-block-navigation-item {
-									.wp-block-navigation-item__content{
-										.wp-block-navigation-item__label{
-
-											background-color: yellow;
-										}
-									}
-
-								}
-
-							}
 						}
 					}
 				}
