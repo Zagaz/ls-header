@@ -17,7 +17,7 @@ export default function Edit() {
 		<>
 
 			<div {...useBlockProps()}>
-				<p>sd</p>
+	
 				<InnerBlocks
 					allowedBlocks={ALLOWED_BLOCKS}
 					template={MENU}

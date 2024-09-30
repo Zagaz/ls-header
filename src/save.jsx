@@ -11,7 +11,9 @@ export default function save() {
 
 	return (
 		<>
-			<div {...blockProps}>
+			<div
+			{...blockProps}
+			>
 				<header className="ud-header">
 					<div className="container">
 						<div className="row">
@@ -31,20 +33,9 @@ export default function save() {
 									</button>
 
 									<div className="navbar-collapse">
-										{/* <InnerBlocks.Content /> */}
+										<InnerBlocks.Content />
 
-										<ul class="wp-block-navigation__container is-responsive wp-block-navigation">
-											<li class=" wp-block-navigation-item current-menu-item wp-block-navigation-link">
-												<a class="wp-block-navigation-item__content"
-													href="http://localhost:8888/" aria-current="page"
-												>
-													<span class="wp-block-navigation-item__label">
-														Sample Pagefcsfdsdf
-													</span>
-												</a>
-											</li>
-										
-										</ul>
+
 									</div>
 								</nav>
 							</div>

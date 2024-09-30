@@ -7,8 +7,8 @@
  *
  * Replace them with your own styles or remove the file completely.
  */
-.wp-block-create-block-ls-header {
-  background-color: rgb(167, 223, 245);
+.wp-block-create-block-ls-header .wp-block-navigation__responsive-container-content .wp-block-navigation {
+  background-color: #184C4E;
 }
 .wp-block-create-block-ls-header .ud-header {
   position: absolute;
@@ -19,10 +19,8 @@
 }
 .wp-block-create-block-ls-header .ud-header .container {
   max-width: 1140px;
-  background-color: red;
 }
 .wp-block-create-block-ls-header .ud-header .container .row {
-  background-color: green;
   --bs-gutter-x: 1.5rem;
   --bs-gutter-y: 0;
   display: flex;
@@ -31,27 +29,17 @@
   margin-right: calc(var(--bs-gutter-x) * -0.5);
   margin-top: calc(var(--bs-gutter-y) * -1);
 }
-.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 {
-  background-color: blue;
-}
-.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar {
-  background-color: pink;
-}
-.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand {
-  background-color: aqua;
-}
-.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand a {
-  background-color: orange;
-}
-.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-toggler {
-  background-color: brown;
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand-toggler {
   padding: 0;
 }
-.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-toggler .toggler-icon {
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand-toggler .toggler-icon {
   background-color: blue;
 }
-.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-collapse {
-  background-color: purple;
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand-collapse .wp-block-navigation-item__content {
+  background-color: rgb(68, 128, 0);
+}
+.wp-block-create-block-ls-header .ud-header .container .row .col-lg-12 .navbar-brand-collapse .wp-block-navigation-item__content .wp-block-navigation-item .wp-block-navigation-item__content .wp-block-navigation-item__label {
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=style-index.css.map*/

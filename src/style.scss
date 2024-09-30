@@ -14,11 +14,17 @@
 
 
 .wp-block-create-block-ls-header {
+
 	// clear styles
+	.wp-block-navigation__responsive-container-content{
+		.wp-block-navigation{
 
-	background-color: rgb(167, 223, 245);
+			background-color: $primary-bg;
+		}
+
+	}
+
 	.ud-header {
-
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -28,9 +34,9 @@
 
 		.container {
 			max-width: 1140px;
-			background-color: red;
+
 			.row {
-				background-color: green;
+
 				--bs-gutter-x: 1.5rem;
 				--bs-gutter-y: 0;
 				display: flex;
@@ -39,37 +45,78 @@
 				margin-right: calc(var(--bs-gutter-x) * -0.5);
 				margin-top: calc(var(--bs-gutter-y) * -1);
 				.col-lg-12 {
-					background-color: blue;
+
+
 					.navbar {
-						background-color: pink;
+
+						// selct .navbar-brand
 
 						&-brand {
 							//Logo
-							background-color: aqua;
-							a {
-								background-color: orange;
-								img {
-									// estilo para o logo
+
+							img{
+
+							}
+							&-toggler {
+								//Button
+
+								padding: 0;
+
+								.toggler-icon {
+									// estilo para o ícone do toggler
+									background-color: blue;
 								}
 							}
-						}
-						&-toggler {
-							background-color: brown;
-							padding: 0;
-							.toggler-icon {
-								// estilo para o ícone do toggler
-								background-color: blue;
-							}
-						}
-						&-collapse {
-							background-color: purple;
-							#nav {
-								// Menu
+							&-collapse{
+								.wp-block-navigation{
+									.wp-block-navigation__responsive-container-open {
+
+									}
+									.wp-block-navigation__responsive-container{
+
+										.wp-block-navigation__responsive-close{
+											.wp-block-navigation__responsive-dialog{
+												.wp-block-navigation__responsive-container-close{
+
+												}
+
+											}
+
+										}
+										.wp-block-navigation__responsive-container-content{
+											.wp-block-navigation{
+
+											}
+
+										}
+
+									}
+
+								}
+
+								//Menu goes here
+								.wp-block-navigation-item__content{
+								background-color: rgb(68, 128, 0);
+								.wp-block-navigation-item {
+									.wp-block-navigation-item__content{
+										.wp-block-navigation-item__label{
+
+											background-color: yellow;
+										}
+									}
+
+								}
+
 							}
 						}
 					}
 				}
 			}
 		}
+	}
+
+
+
+
 	}
 }
