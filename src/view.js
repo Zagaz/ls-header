@@ -13,18 +13,21 @@ window.onscroll = function () {
     const sticky = ud_header.offsetTop;
     const logo = document.querySelector(".navbar-brand img");
 
+
+
+
     if (window.scrollY > sticky) {
       ud_header.classList.add("sticky");
+			logo.src = "http://localhost:8888/wp-content/uploads/2024/10/logo-2.svg";
     } else {
-      ud_header.classList.remove("sticky");
+			ud_header.classList.remove("sticky");
+			logo.src = "http://localhost:8888/wp-content/uploads/2024/10/logo.svg";
     }
 
     // === logo change
     if (ud_header.classList.contains("sticky")) {
-      logo.src = "http://localhost:8888/wp-content/uploads/2024/10/logo.svg";
 		} else {
 
-      logo.src = "http://localhost:8888/wp-content/uploads/2024/10/logo-2.svg";
     }
 
     // show or hide the back-top-top button

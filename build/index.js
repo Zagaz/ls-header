@@ -160,7 +160,7 @@ function save() {
                   className: "navbar-brand",
                   href: "/",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-                    src: `"http://localhost:8888/wp-content/uploads/2024/10/logo.svg`,
+                    src: "http://localhost:8888/wp-content/uploads/2024/10/logo.svg",
                     alt: "logo",
                     className: "img-fluid"
                   })

@@ -18,8 +18,7 @@ export default function save() {
 									<a className="navbar-brand" href="/">
 										{/* // Insert the src/assets/images/logo/logo image */}
 										<img
-											src={`"http://localhost:8888/wp-content/uploads/2024/10/logo.svg`}
-											alt="logo"
+											src="http://localhost:8888/wp-content/uploads/2024/10/logo.svg"											alt="logo"
 											className="img-fluid"/>
 									</a>
 									<button
