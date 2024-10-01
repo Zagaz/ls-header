@@ -16,8 +16,11 @@ export default function save() {
 							<div className="col-lg-12">
 								<nav className="navbar navbar-expand-lg">
 									<a className="navbar-brand" href="/">
-										<img src="/assets/images/logo/logo.svg" alt="Logo" />
-										ud-header{" "}
+										{/* // Insert the src/assets/images/logo/logo image */}
+										<img
+											src={`"http://localhost:8888/wp-content/uploads/2024/10/logo.svg`}
+											alt="logo"
+											className="img-fluid"/>
 									</a>
 									<button
 										className="navbar-toggler"

@@ -49,14 +49,13 @@ $sm: "only screen and (min-width: 576px) and (max-width: 767px)";
 		}
 	}
 
-	// header styles
-
+	// UD-HEADER
 	.ud-header {
 		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100%;
-		// z-index: 99;
+		z-index: 99;
 		@include transition(0.3s);
 	}
 	// STICKY HEADER
@@ -81,6 +80,7 @@ $sm: "only screen and (min-width: 576px) and (max-width: 767px)";
 		@include transition(0.3s);
 	}
 
+	// NAVBAR-BRAND
 	.navbar-brand {
 		padding: 0;
 
@@ -93,6 +93,7 @@ $sm: "only screen and (min-width: 576px) and (max-width: 767px)";
 		}
 	}
 
+	// NAVBAR-TOGGLER
 	.navbar-toggler {
 		padding: 0;
 
@@ -124,7 +125,7 @@ $sm: "only screen and (min-width: 576px) and (max-width: 767px)";
 			}
 		}
 	}
-	//
+	// NAVBAR-COLLAPSE
 	.navbar-collapse {
 		@media #{$md, $xs} {
 		  position: absolute;
@@ -145,7 +146,7 @@ $sm: "only screen and (min-width: 576px) and (max-width: 767px)";
 		}
 	  }
 
-	  //
+	  // NAVBAR-NAV
 
 
 .navbar-nav {
@@ -271,7 +272,7 @@ $sm: "only screen and (min-width: 576px) and (max-width: 767px)";
 	  }
 	}
   }
-
+// NAVBAR-BTN
   .navbar-btn {
 	@media #{$md, $xs} {
 	  position: absolute;
@@ -280,17 +281,20 @@ $sm: "only screen and (min-width: 576px) and (max-width: 767px)";
 	  @include transform(translateY(-50%));
 	}
 
+	// MAIN-BTN
+
 	.ud-main-btn {
 	  padding: 8px 16px;
 	  background: transparent;
 	}
+	// LOGIN-BTN
 
 	.ud-login-btn {
 	  &:hover {
 		opacity: 0.5;
 	  }
 	}
-
+// WHITE-BTN
 	.ud-white-btn {
 	  background: rgba(255, 255, 255, 0.2);
 
@@ -300,6 +304,8 @@ $sm: "only screen and (min-width: 576px) and (max-width: 767px)";
 	  }
 	}
   }
+
+  // STICKY
 
   .sticky {
 	& .navbar-toggler {
@@ -328,7 +334,7 @@ $sm: "only screen and (min-width: 576px) and (max-width: 767px)";
 		}
 	  }
 	}
-
+// NAVBAR-BTN
 	.navbar-btn {
 	  .ud-main-btn {
 		&.ud-login-btn {
