@@ -7,10 +7,12 @@
 
 
 .wp-block-create-block-ls-header {
+	// Fix the margin issue on the very top of the page
+	margin-bottom: -25px;
 	// clear styles
 	.wp-block-navigation__responsive-container-content {
 		.wp-block-navigation {
-			background-color: red;
+
 		}
 	}
 

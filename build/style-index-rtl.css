@@ -909,8 +909,8 @@ p {
   background: var(--heading-color);
 }
 
-.wp-block-create-block-ls-header .wp-block-navigation__responsive-container-content .wp-block-navigation {
-  background-color: red;
+.wp-block-create-block-ls-header {
+  margin-bottom: -25px;
 }
 .wp-block-create-block-ls-header .ud-header {
   position: absolute;

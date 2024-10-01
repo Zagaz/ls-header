@@ -165,7 +165,7 @@ function save() {
                     className: "img-fluid"
                   })
                 }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsxs)("button", {
-                  className: "navbar-toggler",
+                  className: "navbar-toggler ",
                   title: "Toggle navigation menu",
                   children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("span", {
                     className: "toggler-icon",

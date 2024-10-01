@@ -23,7 +23,7 @@ export default function save() {
 											className="img-fluid"
 										/>
 									</a>
-									<button className="navbar-toggler" title="Toggle navigation menu">
+									<button className="navbar-toggler " title="Toggle navigation menu">
 										<span className="toggler-icon"> </span>
 										<span className="toggler-icon"> </span>
 										<span className="toggler-icon"> </span>
