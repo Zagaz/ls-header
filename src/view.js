@@ -23,3 +23,11 @@
 /* eslint-disable no-console */
 console.log( 'Hello World! (from create-block-ls-header block)' );
 /* eslint-enable no-console */
+
+document.addEventListener("DOMContentLoaded", function() {
+    window.addEventListener("scroll", function() {
+        if (window.scrollY > 100) {
+            console.log('scroll ok');
+        }
+    });
+});
