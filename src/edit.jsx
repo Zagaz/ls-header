@@ -35,12 +35,14 @@ export default function Edit() {
 		<>
 
 			<div {...useBlockProps()}>
+				<h3>Aqui é o header</h3>
 
+{/*
 				<InnerBlocks
 					allowedBlocks={ALLOWED_BLOCKS}
 					template={MENU}
 					templateLock="all"
-				/>
+				/> */}
 			</div>
 		</>
 	);
