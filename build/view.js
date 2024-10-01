@@ -30,21 +30,21 @@ console.log('Hello World! (from create-block-ls-header block)');
 
 document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("scroll", function () {
-		let sticky = "";
-		var isStick = document.querySelector('.ud-header');
-
-    if (window.scrollY > 1) {
-			sticky = "sticky";
-			isStick.classList.add(sticky);
-    }
-		if (window.scrollY < 1) {
-			sticky = "sticky";
-			isStick.classList.remove(sticky);
-		}
-
-
+    scrollFunction();
   });
 });
+function scrollFunction() {
+  let scrollObject = document.querySelector('.ud-header');
+  if (document.body.scrollTop > 1 || document.documentElement.scrollTop > 1) {
+    //  add to scrollObject class = "sticky"
+    scrollObject.classList.add("sticky");
+  } else {
+    document.getElementById("header").style.padding = "80px 10px";
+    console.log('scrolling -');
+    //  remove from scrollObject class = "sticky"
+    scrollObject.classList.remove("sticky");
+  }
+}
 /******/ })()
 ;
 //# sourceMappingURL=view.js.map
