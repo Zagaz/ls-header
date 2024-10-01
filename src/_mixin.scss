@@ -8,11 +8,11 @@
 
 
 @mixin transform($value) {
-  -webkit-transform: $value;
-     -moz-transform: $value;
-      -ms-transform: $value;
-       -o-transform: $value;
-          transform: $value;
+	-webkit-transform: $value;
+	-moz-transform: $value;
+	-ms-transform: $value;
+	-o-transform: $value;
+	transform: $value;
 }
 
 @mixin user-select($value) {

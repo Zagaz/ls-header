@@ -10,7 +10,7 @@
  */
 
 /**
- * This makes the STIKY effect on the <header>
+ * This makes the STICKY effect on the <header>
  */
 window.onscroll = function () {
   const ud_header = document.querySelector(".ud-header");
@@ -18,14 +18,17 @@ window.onscroll = function () {
   const logo = document.querySelector(".navbar-brand img");
   if (window.scrollY > sticky) {
     ud_header.classList.add("sticky");
-    logo.src = "http://localhost:8888/wp-content/uploads/2024/10/logo-2.svg";
   } else {
     ud_header.classList.remove("sticky");
-    logo.src = "http://localhost:8888/wp-content/uploads/2024/10/logo.svg";
   }
 
   // === logo change
-  if (ud_header.classList.contains("sticky")) {} else {}
+  if (ud_header.classList.contains("sticky")) {
+    console.log('test');
+    logo.src = "http://localhost:8888/wp-content/uploads/2024/10/logo-2.svg";
+  } else {
+    logo.src = "http://localhost:8888/wp-content/uploads/2024/10/logo.svg";
+  }
 
   // show or hide the back-top-top button
   const backToTop = document.querySelector(".back-to-top");
@@ -43,6 +46,7 @@ document.querySelectorAll(".ud-menu-scroll").forEach(e => e.addEventListener("cl
   navbarToggler.classList.remove("active");
   navbarCollapse.classList.remove("show");
 }));
+
 navbarToggler.addEventListener("click", function () {
   navbarToggler.classList.toggle("active");
   navbarCollapse.classList.toggle("show");
