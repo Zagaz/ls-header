@@ -20,26 +20,28 @@ $md: "only screen and (min-width: 768px) and (max-width: 991px)";
 $xs: "(max-width: 767px)";
 $sm: "only screen and (min-width: 576px) and (max-width: 767px)";
 
-@mixin transition($time) {
-	-webkit-transition: all $time ease-out 0s;
-	-moz-transition: all $time ease-out 0s;
-	-ms-transition: all $time ease-out 0s;
-	-o-transition: all $time ease-out 0s;
-	transition: all $time ease-out 0s;
-}
+// @mixin transition($time) {
+// 	-webkit-transition: all $time ease-out 0s;
+// 	-moz-transition: all $time ease-out 0s;
+// 	-ms-transition: all $time ease-out 0s;
+// 	-o-transition: all $time ease-out 0s;
+// 	transition: all $time ease-out 0s;
+// }
 
-@mixin box-shadow($value) {
-	-webkit-box-shadow: $value;
-	-moz-box-shadow: $value;
-	box-shadow: $value;
-}
-@mixin transform($value) {
-	-webkit-transform: $value;
-	   -moz-transform: $value;
-		-ms-transform: $value;
-		 -o-transform: $value;
-			transform: $value;
-  }
+// @mixin box-shadow($value) {
+// 	-webkit-box-shadow: $value;
+// 	-moz-box-shadow: $value;
+// 	box-shadow: $value;
+// }
+// @mixin transform($value) {
+// 	-webkit-transform: $value;
+// 	   -moz-transform: $value;
+// 		-ms-transform: $value;
+// 		 -o-transform: $value;
+// 			transform: $value;
+//   }
+
+@import 'mixin';
 
 .wp-block-create-block-ls-header {
 	// clear styles
