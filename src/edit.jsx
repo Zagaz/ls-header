@@ -19,7 +19,7 @@ export default function Edit() {
 		useEffect(() => {
 			const handleScroll = () => {
 				if (window.scrollY > 100) {
-					console.log('scroll ok');
+					
 				}
 			};
 

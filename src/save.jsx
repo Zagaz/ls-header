@@ -18,7 +18,7 @@ export default function save() {
 									<a className="navbar-brand" href="/">
 										{/* // Insert the src/assets/images/logo/logo image */}
 										<img
-											src={window.udSettings.themeUrl + "/assets/images/logo/logo.svg"}
+											src="https://libresign.coop/assets/images/logo/logo.svg"
 											alt="logo"
 											className = "img-fluid"
 										/>
@@ -33,37 +33,37 @@ export default function save() {
 										{/* <InnerBlocks.Content /> */}
 										<ul id="nav" class="navbar-nav mx-auto">
 											<li class="nav-item">
-												<a class="ud-menu-scroll" href="/#home">
+												<a class="ud-menu-scroll" href="https://libresign.coop/#home">
 													Home
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="ud-menu-scroll" href="/#features">
+												<a class="ud-menu-scroll" href="https://libresign.coop/#features">
 													Features
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="ud-menu-scroll" href="/#about">
+												<a class="ud-menu-scroll" href="https://libresign.coop/#about">
 													About
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="ud-menu-scroll" href="/pricing">
+												<a class="ud-menu-scroll" href="https://woocommerce.libresign.coop/?post_type=product">
 													Pricing
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="ud-menu-scroll" href="/#target_audience">
+												<a class="ud-menu-scroll" href="https://libresign.coop/#target_audience">
 													Target audience
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="ud-menu-scroll" href="/#contact">
+												<a class="ud-menu-scroll" href="https://libresign.coop/#contact">
 													Contact
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="ud-menu-scroll" href="/posts">
+												<a class="ud-menu-scroll" href="https://libresign.coop/posts">
 													Posts
 												</a>
 											</li>
