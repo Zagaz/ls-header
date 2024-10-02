@@ -46,7 +46,6 @@ document.querySelectorAll(".ud-menu-scroll").forEach(e => e.addEventListener("cl
   navbarToggler.classList.remove("active");
   navbarCollapse.classList.remove("show");
 }));
-
 navbarToggler.addEventListener("click", function () {
   navbarToggler.classList.toggle("active");
   navbarCollapse.classList.toggle("show");
