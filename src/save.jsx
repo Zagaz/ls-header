@@ -20,7 +20,7 @@ export default function save() {
 										<img
 											src={window.udSettings.themeUrl + "/assets/images/logo/logo.svg"}
 											alt="logo"
-											className="img-fluid"
+											className = "img-fluid"
 										/>
 									</a>
 									<button className="navbar-toggler " title="Toggle navigation menu">
