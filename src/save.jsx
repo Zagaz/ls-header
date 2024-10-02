@@ -18,7 +18,7 @@ export default function save() {
 									<a className="navbar-brand" href="/">
 										{/* // Insert the src/assets/images/logo/logo image */}
 										<img
-											src={window.udSettings.themeUrl + "/assets/images/logo/logo.svg"}
+											src="https://libresign.coop/assets/images/logo/logo.svg"
 											alt="logo"
 											className = "img-fluid"
 										/>

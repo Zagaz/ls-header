@@ -9,91 +9,84 @@
  * This makes the STICKY effect on the <header>
  */
 window.onscroll = function () {
-    const ud_header = document.querySelector(".ud-header");
-    const sticky = ud_header.offsetTop;
-    const logo = document.querySelector(".navbar-brand img");
+	const ud_header = document.querySelector(".ud-header");
+	const sticky = ud_header.offsetTop;
+	const logo = document.querySelector(".navbar-brand img");
 
-    if (window.scrollY > sticky) {
-      ud_header.classList.add("sticky");
-    } else {
-			ud_header.classList.remove("sticky");
-    }
+	if (window.scrollY > sticky) {
+		ud_header.classList.add("sticky");
+	} else {
+		ud_header.classList.remove("sticky");
+	}
 
-    // === logo change
-    if (ud_header.classList.contains("sticky")) {
-			console.log('test')
+	// === logo change
+	if (ud_header.classList.contains("sticky")) {
+		logo.src = "https://libresign.coop/assets/images/logo/logo-2.svg";
+	} else {
+		logo.src = "https://libresign.coop/assets/images/logo/logo.svg";
+	}
 
-			logo.src = window.udSettings.themeUrl + "/assets/images/logo/logo-2.svg";
-		} else {
-			logo.src = window.udSettings.themeUrl + "/assets/images/logo/logo.svg";
+	// show or hide the back-top-top button
+	const backToTop = document.querySelector(".back-to-top");
+	if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+		backToTop.style.display = "flex";
+	} else {
+		backToTop.style.display = "none";
+	}
+};
 
-    }
+//===== close navbar-collapse when a  clicked
+let navbarToggler = document.querySelector(".navbar-toggler");
+const navbarCollapse = document.querySelector(".navbar-collapse");
 
-    // show or hide the back-top-top button
-    const backToTop = document.querySelector(".back-to-top");
-    if (
-      document.body.scrollTop > 50 ||
-      document.documentElement.scrollTop > 50
-    ) {
-      backToTop.style.display = "flex";
-    } else {
-      backToTop.style.display = "none";
-    }
-  };
+document.querySelectorAll(".ud-menu-scroll").forEach((e) =>
+	e.addEventListener("click", () => {
+		navbarToggler.classList.remove("active");
+		navbarCollapse.classList.remove("show");
+	}),
+);
+navbarToggler.addEventListener("click", function () {
+	navbarToggler.classList.toggle("active");
+	navbarCollapse.classList.toggle("show");
+});
 
-  //===== close navbar-collapse when a  clicked
-  let navbarToggler = document.querySelector(".navbar-toggler");
-  const navbarCollapse = document.querySelector(".navbar-collapse");
+// ===== submenu
+const submenuButton = document.querySelectorAll(".nav-item-has-children");
+submenuButton.forEach((elem) => {
+	elem.querySelector("a").addEventListener("click", () => {
+		elem.querySelector(".ud-submenu").classList.toggle("show");
+	});
+});
 
-  document.querySelectorAll(".ud-menu-scroll").forEach((e) =>
-    e.addEventListener("click", () => {
-      navbarToggler.classList.remove("active");
-      navbarCollapse.classList.remove("show");
-    })
-  );
-  navbarToggler.addEventListener("click", function () {
-    navbarToggler.classList.toggle("active");
-    navbarCollapse.classList.toggle("show");
-  });
+// ====== scroll top js
+function scrollTo(element, to = 0, duration = 500) {
+	const start = element.scrollTop;
+	const change = to - start;
+	const increment = 20;
+	let currentTime = 0;
 
-  // ===== submenu
-  const submenuButton = document.querySelectorAll(".nav-item-has-children");
-  submenuButton.forEach((elem) => {
-    elem.querySelector("a").addEventListener("click", () => {
-      elem.querySelector(".ud-submenu").classList.toggle("show");
-    });
-  });
+	const animateScroll = () => {
+		currentTime += increment;
 
-  // ====== scroll top js
-  function scrollTo(element, to = 0, duration = 500) {
-    const start = element.scrollTop;
-    const change = to - start;
-    const increment = 20;
-    let currentTime = 0;
+		const val = Math.easeInOutQuad(currentTime, start, change, duration);
 
-    const animateScroll = () => {
-      currentTime += increment;
+		element.scrollTop = val;
 
-      const val = Math.easeInOutQuad(currentTime, start, change, duration);
+		if (currentTime < duration) {
+			setTimeout(animateScroll, increment);
+		}
+	};
 
-      element.scrollTop = val;
+	animateScroll();
+}
 
-      if (currentTime < duration) {
-        setTimeout(animateScroll, increment);
-      }
-    };
+Math.easeInOutQuad = function (t, b, c, d) {
+	t /= d / 2;
+	if (t < 1) return (c / 2) * t * t + b;
+	t--;
+	return (-c / 2) * (t * (t - 2) - 1) + b;
+};
 
-    animateScroll();
-  }
-
-  Math.easeInOutQuad = function (t, b, c, d) {
-    t /= d / 2;
-    if (t < 1) return (c / 2) * t * t + b;
-    t--;
-    return (-c / 2) * (t * (t - 2) - 1) + b;
-  };
-
-  document.querySelector(".back-to-top").onclick = () => {
-    scrollTo(document.documentElement);
-  };
-
+document.querySelector(".back-to-top").onclick = () => {
+	scrollTo(document.documentElement);
+};

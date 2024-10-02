@@ -160,7 +160,7 @@ function save() {
                   className: "navbar-brand",
                   href: "/",
                   children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("img", {
-                    src: window.udSettings.themeUrl + "/assets/images/logo/logo.svg",
+                    src: "https://libresign.coop/assets/images/logo/logo.svg",
                     alt: "logo",
                     className: "img-fluid"
                   })
