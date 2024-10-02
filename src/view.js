@@ -22,9 +22,10 @@ window.onscroll = function () {
     // === logo change
     if (ud_header.classList.contains("sticky")) {
 			console.log('test')
-			logo.src = "http://localhost:8888/wp-content/uploads/2024/10/logo-2.svg";
+
+			logo.src = window.udSettings.themeUrl + "/assets/images/logo/logo-2.svg";
 		} else {
-			logo.src = "http://localhost:8888/wp-content/uploads/2024/10/logo.svg";
+			logo.src = window.udSettings.themeUrl + "/assets/images/logo/logo.svg";
 
     }
 
