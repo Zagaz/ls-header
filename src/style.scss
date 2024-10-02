@@ -1,10 +1,10 @@
 
 // Responsive Variables
-@import 'variables';
-@import 'mixin';
-@import 'default';
-@import 'common';
-
+@import 'styles/variables';
+@import 'styles/mixin';
+@import 'styles/default';
+@import 'styles/common';
+@import 'styles/_common';
 
 .wp-block-create-block-ls-header {
 	// Fix the margin issue on the very top of the page
