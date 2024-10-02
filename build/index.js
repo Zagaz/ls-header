@@ -41,9 +41,7 @@ function Edit() {
   // Add scroll event listener inside useEffect
   (0,react__WEBPACK_IMPORTED_MODULE_2__.useEffect)(() => {
     const handleScroll = () => {
-      if (window.scrollY > 100) {
-        console.log('scroll ok');
-      }
+      if (window.scrollY > 100) {}
     };
 
     // Attach scroll event listener
