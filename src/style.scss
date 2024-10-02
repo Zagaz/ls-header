@@ -125,6 +125,7 @@
 	}
 
 	& .nav-item {
+
 	  position: relative;
 	  padding: 0px 20px;
 
@@ -140,6 +141,7 @@
 		font-size: 16px;
 		font-weight: 400;
 		color: var(--white);
+		text-decoration: none;
 		@include transition(0.3s);
 		padding: 25px 8px;
 		position: relative;
@@ -192,6 +194,7 @@
 		  padding: 7px 0;
 		  color: var(--heading-color);
 		  font-size: 14px;
+		  text-decoration: none;
 
 		  &:hover {
 			color: var(--primary-color);
