@@ -48,7 +48,7 @@ export default function save() {
 												</a>
 											</li>
 											<li class="nav-item">
-												<a class="ud-menu-scroll" href="https://libresign.coop/pricing">
+												<a class="ud-menu-scroll" href="https://woocommerce.libresign.coop/?post_type=product">
 													Pricing
 												</a>
 											</li>

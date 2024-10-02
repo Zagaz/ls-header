@@ -207,7 +207,7 @@ function save() {
                       class: "nav-item",
                       children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("a", {
                         class: "ud-menu-scroll",
-                        href: "https://libresign.coop/pricing",
+                        href: "https://woocommerce.libresign.coop/?post_type=product",
                         children: "Pricing"
                       })
                     }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_1__.jsx)("li", {
