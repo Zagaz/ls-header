@@ -21,7 +21,7 @@ window.onscroll = function () {
 
     // === logo change
     if (ud_header.classList.contains("sticky")) {
-			console.log('test')
+
 
 			logo.src = window.udSettings.themeUrl + "/assets/images/logo/logo-2.svg";
 		} else {
