@@ -63,6 +63,8 @@
 	// NAVBAR-TOGGLER
 	.navbar-toggler {
 		padding: 0;
+		// no visible border
+		border: none;
 
 		& .toggler-icon {
 			width: 30px;
@@ -78,6 +80,7 @@
 	& .active {
 		// When set to active, it opens the menu and
 		//transform the toggler icon (.toggler-icon) to a close icon
+		outline: none;
 		.toggler-icon {
 			&:nth-of-type(1) {
 				@include transform(rotate(45deg));
@@ -282,6 +285,7 @@
 
   .sticky {
 	& .navbar-toggler {
+
 	  & .toggler-icon {
 		background-color: var(--heading-color);
 	  }
