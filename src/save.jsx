@@ -35,40 +35,40 @@ export default function save() {
 											<li className = "nav-item">
 
 												<a className = "ud-menu-scroll"
-												target = "self"
+												target = "_self"
 												href="https://libresign.coop/#home">
 													Home
 												</a>
 											</li>
 											<li className = "nav-item">
 												<a className = "ud-menu-scroll"
-												target = "self"
+												target = "_self"
 												href="https://libresign.coop/#features">
 													Features
 												</a>
 											</li>
 											<li className = "nav-item">
-												<a className="ud-menu-scroll" target = "self"  href="https://libresign.coop/#about">
+												<a className="ud-menu-scroll" target = "_self"  href="https://libresign.coop/#about">
 													About
 												</a>
 											</li>
 											<li className = "nav-item">
-												<a className = "ud-menu-scroll" target = "self"  href="https://woocommerce.libresign.coop/?post_type=product">
+												<a className = "ud-menu-scroll" target = "_self"  href="https://woocommerce.libresign.coop/?post_type=product">
 													Pricing
 												</a>
 											</li>
 											<li className = "nav-item">
-												<a className = "ud-menu-scroll"  target = "self" href="https://libresign.coop/#target_audience">
+												<a className = "ud-menu-scroll"  target = "_self" href="https://libresign.coop/#target_audience">
 													Target audience
 												</a>
 											</li>
 											<li className = "nav-item">
-												<a className = "ud-menu-scroll"  target = "self" href="https://libresign.coop/#contact">
+												<a className = "ud-menu-scroll"  target = "_self" href="https://libresign.coop/#contact">
 													Contact
 												</a>
 											</li>
 											<li className = "nav-item">
-												<a className = "ud-menu-scroll"  target = "self" href="https://libresign.coop/posts">
+												<a className = "ud-menu-scroll"  target = "_self" href="https://libresign.coop/posts">
 													Posts
 												</a>
 											</li>
@@ -76,22 +76,22 @@ export default function save() {
 												<a href = "javascript:void(0)">Language</a>
 												<ul className = "ud-submenu">
 													<li className = "ud-submenu-item">
-														<a className = "ud-submenu-link" target = "self"  href="/">
+														<a className = "ud-submenu-link" target = "_self"  href="/">
 															English
 														</a>
 													</li>
 													<li className = "ud-submenu-item">
-														<a className = "ud-submenu-link" target = "self"  href="/fr">
+														<a className = "ud-submenu-link" target = "_self"  href="/fr">
 															Français
 														</a>
 													</li>
 													<li className = "ud-submenu-item">
-														<a className = "ud-submenu-link" target = "self"  href="/nb-NO">
+														<a className = "ud-submenu-link" target = "_self"  href="/nb-NO">
 															Norsk bokmål
 														</a>
 													</li>
 													<li className = "ud-submenu-item">
-														<a className = "ud-submenu-link" target = "self"  href="/pt-BR">
+														<a className = "ud-submenu-link" target = "_self"  href="/pt-BR">
 															Português Brasil
 														</a>
 													</li>
