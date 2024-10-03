@@ -31,62 +31,67 @@ export default function save() {
 
 									<div className="navbar-collapse">
 										{/* <InnerBlocks.Content /> */}
-										<ul id="nav" class="navbar-nav mx-auto">
-											<li class="nav-item">
-												<a class="ud-menu-scroll" href="https://libresign.coop/#home">
+										<ul id="nav" className = "navbar-nav mx-auto">
+											<li className = "nav-item">
+
+												<a className = "ud-menu-scroll"
+												target = "self"
+												href="https://libresign.coop/#home">
 													Home
 												</a>
 											</li>
-											<li class="nav-item">
-												<a class="ud-menu-scroll" href="https://libresign.coop/#features">
+											<li className = "nav-item">
+												<a className = "ud-menu-scroll"
+												target = "self"
+												href="https://libresign.coop/#features">
 													Features
 												</a>
 											</li>
-											<li class="nav-item">
-												<a class="ud-menu-scroll" href="https://libresign.coop/#about">
+											<li className = "nav-item">
+												<a className="ud-menu-scroll" target = "self"  href="https://libresign.coop/#about">
 													About
 												</a>
 											</li>
-											<li class="nav-item">
-												<a class="ud-menu-scroll" href="https://woocommerce.libresign.coop/?post_type=product">
+											<li className = "nav-item">
+												<a className = "ud-menu-scroll" target = "self"  href="https://woocommerce.libresign.coop/?post_type=product">
 													Pricing
 												</a>
 											</li>
-											<li class="nav-item">
-												<a class="ud-menu-scroll" href="https://libresign.coop/#target_audience">
+											<li className = "nav-item">
+												<a className = "ud-menu-scroll"  target = "self" href="https://libresign.coop/#target_audience">
 													Target audience
 												</a>
 											</li>
-											<li class="nav-item">
-												<a class="ud-menu-scroll" href="https://libresign.coop/#contact">
+											<li className = "nav-item">
+												<a className = "ud-menu-scroll"  target = "self" href="https://libresign.coop/#contact">
 													Contact
 												</a>
 											</li>
-											<li class="nav-item">
-												<a class="ud-menu-scroll" href="https://libresign.coop/posts">
+											<li className = "nav-item">
+												<a className = "ud-menu-scroll"  target = "self" href="https://libresign.coop/posts">
 													Posts
 												</a>
 											</li>
-											<li class="nav-item nav-item-has-children">
-												<a href="javascript:void(0)">Language</a>
-												<ul class="ud-submenu">
-													<li class="ud-submenu-item">
-														<a class="ud-submenu-link" href="/">
+											<li className = "nav-item nav-item-has-children">
+												<a href = "javascript:void(0)">Language</a>
+												<ul className = "ud-submenu">
+													<li className = "ud-submenu-item">
+														<a className = "ud-submenu-link" target = "self"  href="/">
 															English
 														</a>
 													</li>
-													<li class="ud-submenu-item">
-														<a class="ud-submenu-link" href="/fr">
+													<li className = "ud-submenu-item">
+														<a className = "ud-submenu-link" target = "self"  href="/fr">
 															Français
 														</a>
 													</li>
-													<li class="ud-submenu-item">
-														<a class="ud-submenu-link" href="/nb-NO">
+													<li className = "ud-submenu-item">
+														<a className = "ud-submenu-link" target = "self"  href="/nb-NO">
 															Norsk bokmål
 														</a>
 													</li>
-													<li class="ud-submenu-item">
-														<a class="ud-submenu-link" href="/pt-BR">
+													<li className = "ud-submenu-item">
+														<a className = "ud-submenu-link" target = "self"  href="/pt-BR">
 															Português Brasil
 														</a>
 													</li>
